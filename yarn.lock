@@ -1445,16 +1445,6 @@ raw-body@2.5.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-hook-form@^7.49.3:
-  version "7.49.3"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.49.3.tgz#576a4567f8a774830812f4855e89f5da5830435c"
-  integrity sha512-foD6r3juidAT1cOZzpmD/gOKt7fRsDhXXZ0y28+Al1CHgX+AY1qIN9VSIIItXRq1dN68QrRwl1ORFlwjBaAqeQ==
-
-redux@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/redux/-/redux-5.0.1.tgz#97fa26881ce5746500125585d5642c77b6e9447b"
-  integrity sha512-M9/ELqF6fy8FwmkpnF0S3YKOqMyoWJ4+CS5Efg2ct3oY9daQvd/Pc71FpGZsVsbl3Cpb+IIcjBDUnnyBdQbq4w==
-
 regenerator-runtime@^0.14.0:
   version "0.14.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz#356ade10263f685dda125100cd862c1db895327f"

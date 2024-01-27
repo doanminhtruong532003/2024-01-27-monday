@@ -1,13 +1,8 @@
-import React, { useState } from 'react'
-import SignUpNew from './Components/SignUpNew'
+import React from 'react'
 
-
-const Register: React.FC = () => {
+const Register :React.FC= () => {
   return (
-    <>
-    <div>hahah</div>
-    <SignUpNew/>
-    </>
+    <div>Register</div>
   )
 }
 
