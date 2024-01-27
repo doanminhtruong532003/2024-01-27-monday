@@ -1,7 +1,8 @@
 import React from "react";
+import Loading from "./Components/Loading";
 
 function App() {
-  return <p>Hello World</p>;
+  return <Loading/>;
 }
 
 export default App;
