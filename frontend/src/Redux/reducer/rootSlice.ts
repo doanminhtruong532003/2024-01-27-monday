@@ -3,13 +3,15 @@ import { createSlice } from '@reduxjs/toolkit'
 const rootSlice = createSlice({
   name: "root",
   initialState: {
-    base: "small",
+    email: "",
     crust: "classic_thin",
     sauce: "no_sauce",
     cheese: "no_cheese"
   },
   reducers: {
-    chooseBase: (state, action) => { state.base = action.payload },
+    //* Chose Email for users/sign-up-new
+    chooseEmail: (state, action) => { state.email = action.payload },
+    //* Chose Email for users/sign-up-new
     chooseCrust: (state, action) => { state.crust = action.payload },
     chooseSauce: (state, action) => { state.sauce = action.payload },
     chooseCheese: (state, action) => { state.cheese = action.payload },
@@ -18,4 +20,4 @@ const rootSlice = createSlice({
 
 export const reducer = rootSlice.reducer;
 
-export const { chooseBase, chooseCheese, chooseCrust, chooseSauce } = rootSlice.actions
+export const { chooseEmail, chooseCheese, chooseCrust, chooseSauce } = rootSlice.actions

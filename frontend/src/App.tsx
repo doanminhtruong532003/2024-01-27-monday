@@ -1,12 +1,13 @@
 import React from "react";
-import Register from "./Pages/Auth/Register/Register";
 import AppRoutes from "./Routes";
-import Loading from "./Components/Loading";
-import SignUpNew from "./Pages/Auth/Register/Components/SignUpNew";
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const App: React.FC = () => {
-  return(
-    <AppRoutes/>
+  return (
+    <Router>
+      <AppRoutes />
+    </Router>
+
   )
 }
 
